@@ -109,6 +109,73 @@ def cmd_ingest(_args) -> None:
     print("API totals:", run["api_totals"])
 
 
+BENCHMARK = REPO / "benchmark" / "questions.json"
+SELECTION = RESULTS / "selection.json"
+
+
+def embed_queries(store, embedder, questions):
+    texts = [q["question"] for q in questions]
+    cached = store.cached_embeddings(embedder.model_name, "RETRIEVAL_QUERY", texts)
+    missing = [t for t in dict.fromkeys(texts) if text_hash(t) not in cached]
+    for t in missing:  # one call per query, same path as at serving time
+        v = embedder.embed_query(t)
+        store.put_cache(embedder.model_name, "RETRIEVAL_QUERY", [t], [v])
+        cached[text_hash(t)] = v
+    return {q["id"]: cached[text_hash(q["question"])] for q in questions}
+
+
+def cmd_retrieve(args) -> None:
+    from .evaluation import evaluate_query, summarize
+
+    bench = json.loads(BENCHMARK.read_text(encoding="utf-8"))
+    questions = [q for q in bench["questions"] if q["split"] == args.split]
+    if args.split == "test":
+        if not SELECTION.exists():
+            raise SystemExit("Refusing to run test: select a strategy on dev first (results/selection.json).")
+        sel = json.loads(SELECTION.read_text(encoding="utf-8"))
+        print(f"Selection locked at {sel['locked_at']}: {sel['selected_strategy']}")
+
+    model = os.environ.get("EMBEDDING_MODEL") or "gemini-embedding-001"
+    store = PgVectorStore(os.environ["DATABASE_URL"], EMBEDDING_DIMS)
+    embedder = GeminiEmbedder(model, EMBEDDING_DIMS)
+    qvecs = embed_queries(store, embedder, questions)
+
+    traces = []
+    for name, cfg in STRATEGIES.items():
+        for q in questions:
+            filters = {"section": q["filter"]["section"]} if (cfg["use_filter"] and q.get("filter")) else None
+            t = time.perf_counter()
+            hits = store.search(name, qvecs[q["id"]], 3, filters)
+            latency_ms = (time.perf_counter() - t) * 1000
+            ev = evaluate_query(q, hits)
+            traces.append({
+                "strategy": name, "split": q["split"], "id": q["id"], "type": q.get("type"),
+                "question": q["question"], "expected_answer": q["expected_answer"],
+                "gold": [{"page": q["gold_page"], "evidence_quote": q["evidence_quote"]}]
+                        + [{"page": a["gold_page"], "evidence_quote": a["evidence_quote"]} for a in q.get("alternative_gold", [])],
+                "filter": q.get("filter"), "filter_applied": filters,
+                "search_ms": round(latency_ms, 1),
+                "top3": [{"rank": i + 1, "chunk_id": h["chunk_id"], "document_id": h["document_id"], "source": h["source"],
+                          "page": h["page"], "printed_pages": h["printed_pages"], "sections": h["sections"],
+                          "heading": h["heading"], "score": round(float(h["score"]), 4), "text": h["text"]}
+                         for i, h in enumerate(hits)],
+                "eval": ev,
+            })
+    out_dir = RESULTS / "traces"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    with (out_dir / f"{args.split}.jsonl").open("w", encoding="utf-8") as f:
+        for t in traces:
+            f.write(json.dumps(t, ensure_ascii=False) + "\n")
+    summary = summarize(traces)
+    run_info = {"run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "split": args.split,
+                "embedding_model": model, "query_api_calls": embedder.api_calls, "summary": summary}
+    (RESULTS / f"metrics_{args.split}.json").write_text(json.dumps(run_info, ensure_ascii=False, indent=2), encoding="utf-8")
+    for name, by_split in summary.items():
+        s = by_split[args.split]
+        print(f"{name} [{args.split}] Hit@1 {s['hit_at_1']} | Hit@3 {s['hit_at_3']} | page@3 {s['page_hit_at_3']} | "
+              f"filter compliance {s['filter_compliance']} | filter-q Hit@3 {s['filter_question_hit_at_3']} | misses {s['misses_at_3']}")
+
+
 def cmd_search(args) -> None:
     model = os.environ.get("EMBEDDING_MODEL") or "gemini-embedding-001"
     store = PgVectorStore(os.environ["DATABASE_URL"], EMBEDDING_DIMS)
@@ -123,12 +190,14 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("ingest")
+    r = sub.add_parser("retrieve")
+    r.add_argument("--split", choices=["dev", "test"], required=True)
     s = sub.add_parser("search")
     s.add_argument("query")
     s.add_argument("--strategy", default="B")
     s.add_argument("--section")
     args = ap.parse_args()
-    {"ingest": cmd_ingest, "search": cmd_search}[args.cmd](args)
+    {"ingest": cmd_ingest, "retrieve": cmd_retrieve, "search": cmd_search}[args.cmd](args)
 
 
 if __name__ == "__main__":
