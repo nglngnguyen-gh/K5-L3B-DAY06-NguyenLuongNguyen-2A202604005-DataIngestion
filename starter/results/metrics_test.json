@@ -1,0 +1,53 @@
+{
+  "run_at": "2026-11-14T03:54:29+00:00",
+  "split": "test",
+  "embedding_model": "gemini-embedding-001",
+  "query_api_calls": 5,
+  "summary": {
+    "A": {
+      "test": {
+        "n": 5,
+        "hit_at_1": "4/5",
+        "hit_at_3": "5/5",
+        "page_hit_at_3": "5/5",
+        "evidence_split_misses": [],
+        "misses_at_3": [],
+        "filter_questions": [
+          "t03"
+        ],
+        "filter_compliance": "1/1",
+        "filter_question_hit_at_3": "1/1"
+      }
+    },
+    "B": {
+      "test": {
+        "n": 5,
+        "hit_at_1": "5/5",
+        "hit_at_3": "5/5",
+        "page_hit_at_3": "5/5",
+        "evidence_split_misses": [],
+        "misses_at_3": [],
+        "filter_questions": [
+          "t03"
+        ],
+        "filter_compliance": "1/1",
+        "filter_question_hit_at_3": "1/1"
+      }
+    },
+    "C": {
+      "test": {
+        "n": 5,
+        "hit_at_1": "5/5",
+        "hit_at_3": "5/5",
+        "page_hit_at_3": "5/5",
+        "evidence_split_misses": [],
+        "misses_at_3": [],
+        "filter_questions": [
+          "t03"
+        ],
+        "filter_compliance": "1/1",
+        "filter_question_hit_at_3": "1/1"
+      }
+    }
+  }
+}

@@ -1,0 +1,681 @@
+[
+  {
+    "pdf_page": 3,
+    "segments": 26,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 717,
+          "y": 146,
+          "text": "arbitration of investment disputes."
+        },
+        "to": {
+          "x": 717,
+          "y": 635,
+          "text": "Our mission is to end extreme poverty and boost"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 4,
+    "segments": 145,
+    "events": [
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 886,
+          "y": 93,
+          "text": "transformative and far-reaching."
+        },
+        "to": {
+          "x": 54,
+          "y": 418,
+          "text": "The Executive Directors support the World Bank"
+        }
+      },
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 636,
+          "y": 493,
+          "text": "Marcos Chiliatto, Brazil; Teresa Solbes, Spain; Parameswaran Iyer, India; Suhail Saeed, Sa"
+        },
+        "to": {
+          "x": 54,
+          "y": 581,
+          "text": "Against a backdrop of repeated"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 5,
+    "segments": 96,
+    "events": [
+      {
+        "kind": "back_to_left_column",
+        "from": {
+          "x": 228,
+          "y": 139,
+          "text": "Chairman of the Board of Executive Directors"
+        },
+        "to": {
+          "x": 54,
+          "y": 546,
+          "text": "PROVIDE DIGNITY, HOPE, AND"
+        }
+      },
+      {
+        "kind": "back_to_left_column",
+        "from": {
+          "x": 882,
+          "y": 134,
+          "text": "on that progress — and help create more jobs for"
+        },
+        "to": {
+          "x": 636,
+          "y": 596,
+          "text": "These changes matter because public resources"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 6,
+    "segments": 34,
+    "events": []
+  },
+  {
+    "pdf_page": 7,
+    "segments": 35,
+    "events": [
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 916,
+          "y": 387,
+          "text": "Agribusiness • Healthcare •"
+        },
+        "to": {
+          "x": 108,
+          "y": 506,
+          "text": "Jobs unlock potential, empower women, engage young people,"
+        }
+      },
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 108,
+          "y": 79,
+          "text": "of future generations into jobs, dignity, and prosperity."
+        },
+        "to": {
+          "x": 108,
+          "y": 577,
+          "text": "The world needs more and better-paid"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 9,
+    "segments": 23,
+    "events": []
+  },
+  {
+    "pdf_page": 10,
+    "segments": 29,
+    "events": []
+  },
+  {
+    "pdf_page": 11,
+    "segments": 23,
+    "events": []
+  },
+  {
+    "pdf_page": 12,
+    "segments": 26,
+    "events": []
+  },
+  {
+    "pdf_page": 13,
+    "segments": 35,
+    "events": []
+  },
+  {
+    "pdf_page": 14,
+    "segments": 19,
+    "events": []
+  },
+  {
+    "pdf_page": 15,
+    "segments": 27,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 52,
+          "y": 53,
+          "text": "b. Over the past five fiscal years, not only fiscal 2026."
+        },
+        "to": {
+          "x": 53,
+          "y": 655,
+          "text": "The Scorecard tracks our progress on creating a global ecosystem for job creation."
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 16,
+    "segments": 28,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 964,
+          "y": 112,
+          "text": "PEOPLE IMPACTED BY END-FY26"
+        },
+        "to": {
+          "x": 964,
+          "y": 424,
+          "text": "in Africa with electricity access"
+        }
+      },
+      {
+        "kind": "back_to_left_column",
+        "from": {
+          "x": 964,
+          "y": 237,
+          "text": "PEOPLE IMPACTED BY END-FY26"
+        },
+        "to": {
+          "x": 649,
+          "y": 531,
+          "text": "move up the value chain by 2030,"
+        }
+      },
+      {
+        "kind": "back_to_left_column",
+        "from": {
+          "x": 806,
+          "y": 112,
+          "text": "PEOPLE IMPACTED BY END-FY26"
+        },
+        "to": {
+          "x": 636,
+          "y": 642,
+          "text": "TEN TARGETS, ONE FOCUSED AMBITION: Creating Jobs to End Poverty"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 17,
+    "segments": 34,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 641,
+          "y": 111,
+          "text": "of which from FIFs where IBRD/IDA is"
+        },
+        "to": {
+          "x": 636,
+          "y": 629,
+          "text": "World Bank Group Financing for Partner Countries"
+        }
+      },
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 643,
+          "y": 54,
+          "text": "commitments and disbursements are not part of the World Bank’s (IBRD/IDA) balance sheet."
+        },
+        "to": {
+          "x": 36,
+          "y": 91,
+          "text": "2. Total includes multiregional and global operations. Regional totals reflect IFC commitm"
+        }
+      },
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 43,
+          "y": 82,
+          "text": "regional classifications by aggregating country-level commitments within each World Bank r"
+        },
+        "to": {
+          "x": 36,
+          "y": 626,
+          "text": "In fiscal 2026, the World Bank Group supported jobs, opportunities, and growth"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 18,
+    "segments": 71,
+    "events": []
+  },
+  {
+    "pdf_page": 19,
+    "segments": 146,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 700,
+          "y": 423,
+          "text": "estimated 11,000 local jobs."
+        },
+        "to": {
+          "x": 700,
+          "y": 662,
+          "text": "SCALING UP OUTCOME BONDS: CLEAN COOKING"
+        }
+      },
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 930,
+          "y": 115,
+          "text": "transport project to enhance road safety"
+        },
+        "to": {
+          "x": 35,
+          "y": 82,
+          "text": "4. The term “World Bank Small States” refers to the 33 current World Bank client countries"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 20,
+    "segments": 185,
+    "events": []
+  },
+  {
+    "pdf_page": 21,
+    "segments": 153,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 37,
+          "y": 56,
+          "text": "platforms for civil society, faith-based, and think tank"
+        },
+        "to": {
+          "x": 35,
+          "y": 327,
+          "text": "Partnerships are essential to meeting today’s complex development challenges. No one count"
+        }
+      },
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 885,
+          "y": 54,
+          "text": "together to benefit our clients. Two projects are being"
+        },
+        "to": {
+          "x": 36,
+          "y": 688,
+          "text": "The World Bank’s ESF applies to all investment"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 22,
+    "segments": 158,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 885,
+          "y": 85,
+          "text": "clients and shareholders."
+        },
+        "to": {
+          "x": 900,
+          "y": 669,
+          "text": "For more information about our operations and"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 23,
+    "segments": 130,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 100,
+          "y": 197,
+          "text": "oversight, in consultation with stakeholders."
+        },
+        "to": {
+          "x": 100,
+          "y": 424,
+          "text": "STRENGTHENING THE WORLD BANK GROUP"
+        }
+      },
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 900,
+          "y": 466,
+          "text": "accountability.worldbank.org/en/home"
+        },
+        "to": {
+          "x": 285,
+          "y": 156,
+          "text": "concerns with CAO, which reports directly to the IFC"
+        }
+      },
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 885,
+          "y": 515,
+          "text": "directly to investigation by the Panel."
+        },
+        "to": {
+          "x": 36,
+          "y": 564,
+          "text": "The Boards of Executive Directors5"
+        }
+      },
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 300,
+          "y": 503,
+          "text": "worldbank.org/en/about/leadership/"
+        },
+        "to": {
+          "x": 285,
+          "y": 575,
+          "text": "credits and grants, IFC investments, MIGA guarantees,"
+        }
+      },
+      {
+        "kind": "back_to_left_column",
+        "from": {
+          "x": 285,
+          "y": 551,
+          "text": "Bank Group’s general operations."
+        },
+        "to": {
+          "x": 36,
+          "y": 660,
+          "text": "OVERSIGHT AND ACCOUNTABILITY"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 24,
+    "segments": 157,
+    "events": [
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 652,
+          "y": 401,
+          "text": "org/en/about/unit/ethics-and-internal-"
+        },
+        "to": {
+          "x": 36,
+          "y": 688,
+          "text": "INDEPENDENT EVALUATION GROUP"
+        }
+      },
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 885,
+          "y": 179,
+          "text": "this agenda across public and private sector operations."
+        },
+        "to": {
+          "x": 285,
+          "y": 690,
+          "text": "notably through engagements in Afghanistan and Sierra"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 25,
+    "segments": 166,
+    "events": []
+  },
+  {
+    "pdf_page": 26,
+    "segments": 24,
+    "events": []
+  },
+  {
+    "pdf_page": 27,
+    "segments": 55,
+    "events": []
+  },
+  {
+    "pdf_page": 28,
+    "segments": 75,
+    "events": []
+  },
+  {
+    "pdf_page": 29,
+    "segments": 72,
+    "events": []
+  },
+  {
+    "pdf_page": 30,
+    "segments": 57,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 36,
+          "y": 389,
+          "text": "objectives of Bank-supported activities and capture the Bank’s support for the Sustainable"
+        },
+        "to": {
+          "x": 36,
+          "y": 684,
+          "text": "TABLE 10: IDA GROSS DISBURSEMENTS BY REGION, FISCAL 2022–26"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 31,
+    "segments": 126,
+    "events": []
+  },
+  {
+    "pdf_page": 32,
+    "segments": 62,
+    "events": [
+      {
+        "kind": "back_to_left_column",
+        "from": {
+          "x": 885,
+          "y": 62,
+          "text": "investors, and communities in the countries it serves."
+        },
+        "to": {
+          "x": 637,
+          "y": 421,
+          "text": "The International Finance Corporation mobilizes private capital at scale, supports busines"
+        }
+      },
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 637,
+          "y": 408,
+          "text": "microenterprises to large corporations, and creates jobs that drive economic growth and re"
+        },
+        "to": {
+          "x": 285,
+          "y": 688,
+          "text": "to date, we have signed Procurement Mutual Reliance"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 33,
+    "segments": 57,
+    "events": []
+  },
+  {
+    "pdf_page": 34,
+    "segments": 24,
+    "events": []
+  },
+  {
+    "pdf_page": 35,
+    "segments": 24,
+    "events": [
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 636,
+          "y": 415,
+          "text": "TABLE 21: FISCAL 2026 LONG-TERM COMMITMENTS BY ENVIRONMENTAL AND SOCIAL CATEGORY"
+        },
+        "to": {
+          "x": 36,
+          "y": 683,
+          "text": "TABLE 19: FISCAL 2026 PORTFOLIO EXPOSURE"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 36,
+    "segments": 122,
+    "events": []
+  },
+  {
+    "pdf_page": 37,
+    "segments": 164,
+    "events": [
+      {
+        "kind": "right_page_to_left_page",
+        "from": {
+          "x": 885,
+          "y": 372,
+          "text": "implementation challenges across multiple business"
+        },
+        "to": {
+          "x": 36,
+          "y": 59,
+          "text": "8. For more information on IFC’s Anticipated Impact Measurement and Monitoring system, vis"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 38,
+    "segments": 41,
+    "events": []
+  },
+  {
+    "pdf_page": 39,
+    "segments": 36,
+    "events": [
+      {
+        "kind": "back_to_left_column",
+        "from": {
+          "x": 284,
+          "y": 540,
+          "text": "guarantee portfolio increased by 8 percent to a record"
+        },
+        "to": {
+          "x": 36,
+          "y": 661,
+          "text": "BUSINESS AND OPERATIONAL OVERVIEW"
+        }
+      },
+      {
+        "kind": "back_to_left_column",
+        "from": {
+          "x": 766,
+          "y": 117,
+          "text": "Portfolio Reinsurance Rate (Right Y-Axis)"
+        },
+        "to": {
+          "x": 685,
+          "y": 383,
+          "text": "FIGURE 4: PORTFOLIO REINSURANCE (BILLIONS OF DOLLARS) AND RATE (%)"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 40,
+    "segments": 83,
+    "events": []
+  },
+  {
+    "pdf_page": 41,
+    "segments": 148,
+    "events": []
+  },
+  {
+    "pdf_page": 42,
+    "segments": 115,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 700,
+          "y": 486,
+          "text": "maintain membership in ICSID."
+        },
+        "to": {
+          "x": 700,
+          "y": 661,
+          "text": "MEMBERSHIP UPDATES AND BENEFITS"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 43,
+    "segments": 116,
+    "events": [
+      {
+        "kind": "jump_up_same_column",
+        "from": {
+          "x": 96,
+          "y": 440,
+          "text": "frameworks drawing on World Bank Group and UNCITRAL toolkits."
+        },
+        "to": {
+          "x": 96,
+          "y": 661,
+          "text": "BUILDING CAPACITY IN MEDIATION"
+        }
+      }
+    ]
+  },
+  {
+    "pdf_page": 44,
+    "segments": 52,
+    "events": []
+  }
+]

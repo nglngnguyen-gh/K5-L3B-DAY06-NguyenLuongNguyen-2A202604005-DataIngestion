@@ -1,0 +1,192 @@
+[
+  {
+    "position_id": "pos01",
+    "page": 3,
+    "rule": "first word boundary after the midpoint of the normalized page text; 40-char snippet",
+    "snippet": "Group Guarantee Platform, providing guar",
+    "chunks": {
+      "A": {
+        "chunk_id": "wbg-ar-2026:p003:f001",
+        "text": "bs that drive economic growth and opportunity. • Multilateral Investment Guarantee Agency (MIGA), which houses the World Bank Group Guarantee Platform, providing guarantees to mobilize private capital for developing countries. • International Centre for Settlement of Investment Disputes (ICSID), which provides international facilities for conciliation, mediation, and arbitration of investment disputes. Our mission is to end extreme poverty and boost shared prosperity on a livable planet. This mission is threatened by multiple, intertwined crises. Time is of the essence. Through the Knowledge Bank and our financial commitments, we are driving impactful development that is: • Inclusive of everyone, including women and young people. • Resilient to shocks and fragility. • Sustainable, through"
+      },
+      "B": {
+        "chunk_id": "wbg-ar-2026:p003:b001",
+        "text": "• Multilateral Investment Guarantee Agency (MIGA), which houses the World Bank Group Guarantee Platform, providing guarantees to mobilize private capital for developing countries.\n• International Centre for Settlement of Investment Disputes (ICSID), which provides international facilities for conciliation, mediation, and arbitration of investment disputes.\nOur mission is to end extreme poverty and boost shared prosperity on a livable planet. This mission is threatened by multiple, intertwined crises. Time is of the essence. Through the Knowledge Bank and our financial commitments, we are driving impactful development that is:\n• Inclusive of everyone, including women and young people.\n• Resilient to shocks and fragility."
+      },
+      "C": {
+        "same_as": "B"
+      }
+    }
+  },
+  {
+    "position_id": "pos02",
+    "page": 4,
+    "rule": "first word boundary after the midpoint of the normalized page text; 40-char snippet",
+    "snippet": "with private sector partners and clients",
+    "chunks": {
+      "A": {
+        "chunk_id": "wbg-ar-2026:p004:f005",
+        "text": "ollaboration across our institutions, we are enhancing efficiency and accelerating our impact on the ground. Forging new alliances with private sector partners and clients and strengthening cooperation with development partners ensures that scarce resources are deployed where they can generate the most jobs and growth. Furthermore, the Executive Directors recognize the critical role of the Knowledge Bank — harnessing the institution’s data, analytics, and operational experience — in delivering more impactful, country-led projects. The Board was also pleased this year to approve the creation of a single, independent accountability mechanism, informed by extensive consultations. In line with the parallel consolidation of the Environmental and Social LETTER FROM THE EXECUTIVE DIRECTORS Seated"
+      },
+      "B": {
+        "chunk_id": "wbg-ar-2026:p004:b007",
+        "text": "Forging new alliances with private sector partners and clients and strengthening cooperation with development partners ensures that scarce resources are deployed where they can generate the most jobs and growth. Furthermore, the Executive Directors recognize the critical role of the Knowledge Bank — harnessing the institution’s data, analytics, and operational experience — in delivering more impactful, country-led projects. The Board was also pleased this year to approve the creation of a single, independent accountability mechanism, informed by extensive consultations. In line with the parallel consolidation of the Environmental and Social"
+      },
+      "C": {
+        "same_as": "B"
+      }
+    }
+  },
+  {
+    "position_id": "pos03",
+    "page": 5,
+    "rule": "first word boundary after the midpoint of the normalized page text; 40-char snippet",
+    "snippet": "needs. Our client engagements focus on S",
+    "chunks": {
+      "A": {
+        "chunk_id": "wbg-ar-2026:p005:f003",
+        "text": "trepreneurs power the global economy. And it’s our job to help them do theirs. Technology amplifies our work. We have connected 154 million people to broadband internet and 86 million people to digitally enabled services so they can access markets, improve their skills, use better public services, and participate more fully in the modern economy. We have fully embraced AI tools at the World Bank Group, and we support clients to adopt, adapt, and then advance them for their own needs. Our client engagements focus on Small AI — affordable, fit-for-purpose solutions designed for local conditions, including places with limited power, connectivity, and computing capacity. This is not a second-best path. It is a practical way to strengthen workers, help firms grow, improve services, support loca"
+      },
+      "B": {
+        "chunk_id": "wbg-ar-2026:p005:b004",
+        "text": "Technology amplifies our work. We have connected 154 million people to broadband internet and 86 million people to digitally enabled services so they can access markets, improve their skills, use better public services, and participate more fully in the modern economy.\nWe have fully embraced AI tools at the World Bank Group, and we support clients to adopt, adapt, and then advance them for their own needs. Our client engagements focus on Small AI — affordable, fit-for-purpose solutions designed for local conditions, including places with limited power, connectivity, and computing capacity. This is not a second-best path. It is a practical way to strengthen workers, help firms grow, improve services, support local entrepreneurs, and create more and better jobs."
+      },
+      "C": {
+        "same_as": "B"
+      }
+    }
+  },
+  {
+    "position_id": "pos04",
+    "page": 6,
+    "rule": "first word boundary after the midpoint of the normalized page text; 40-char snippet",
+    "snippet": "and their operational policies. • Knowle",
+    "chunks": {
+      "A": {
+        "chunk_id": "wbg-ar-2026:p006:f001",
+        "text": "goal of issuing $20 billion annually by 2030 — to give investors the confidence to invest in developing countries. • MDB partnerships The Global Collaborative Co-Financing Platform, of which we are a founding member, has a pipeline of almost 240 projects valued at $140 billion, and we’ve removed co-financing fees to spur even more partnerships. We’ve also agreed to Full Mutual Reliance Frameworks with two multilateral development banks that allow clients to engage with a single lead lender and their operational policies. • Knowledge transfer We’re applying our data and insights to better help clients create jobs. Assessments such as The Global Jobs Challenge map constraints, reforms, and investment opportunities. The World Bank Group Academy continues to build client capacity with practica"
+      },
+      "B": {
+        "chunk_id": "wbg-ar-2026:p006:b001",
+        "text": "We also issued $25 billion in guarantees this year — surpassing our goal of issuing $20 billion annually by 2030 — to give investors the confidence to invest in developing countries.\n• MDB partnerships The Global Collaborative Co-Financing Platform, of which we are a founding member, has a pipeline of almost 240 projects valued at $140 billion, and we’ve removed co-financing fees to spur even more partnerships. We’ve also agreed to Full Mutual Reliance Frameworks with two multilateral development banks that allow clients to engage with a single lead lender and their operational policies.\n• Knowledge transfer We’re applying our data and insights to better help clients create jobs."
+      },
+      "C": {
+        "same_as": "B"
+      }
+    }
+  },
+  {
+    "position_id": "pos05",
+    "page": 7,
+    "rule": "first word boundary after the midpoint of the normalized page text; 40-char snippet",
+    "snippet": "developing countries are expected to gen",
+    "chunks": {
+      "A": {
+        "chunk_id": "wbg-ar-2026:p007:f001",
+        "text": "ve up the ladder of aspirations lifts entire communities out of poverty. When we create jobs, we strengthen economic and social stability, reduce mass migration, improve livelihoods, enhance resilience to economic shocks, and prevent people from falling back into poverty. That benefits everyone, everywhere. With 1.2 billion young people reaching working age in the next 10 to 15 years, the need for more and better-paid jobs is more urgent than ever. On current trajectories, developing countries are expected to generate only about 420 million jobs over that same period — leaving a gap of staggering proportions. Jobs are created when firms can operate reliably, plan with confidence, and invest with reasonable expectations of return. Our strategy reflects that reality: • First, invest in found"
+      },
+      "B": {
+        "chunk_id": "wbg-ar-2026:p007:b001",
+        "text": "When we create jobs, we strengthen economic and social stability, reduce mass migration, improve livelihoods, enhance resilience to economic shocks, and prevent people from falling back into poverty.\nThat benefits everyone, everywhere.\nWith 1.2 billion young people reaching working age in the next 10 to 15 years, the need for more and better-paid jobs is more urgent than ever. On current trajectories, developing countries are expected to generate only about 420 million jobs over that same period — leaving a gap of staggering proportions.\nJobs are created when firms can operate reliably, plan with confidence, and invest with reasonable expectations of return. Our strategy reflects that reality:\n• First, invest in foundational physical and human infrastructure;"
+      },
+      "C": {
+        "same_as": "B"
+      }
+    }
+  },
+  {
+    "position_id": "pos06",
+    "page": 9,
+    "rule": "first word boundary after the midpoint of the normalized page text; 40-char snippet",
+    "snippet": "entity for a $220 million concessional s",
+    "chunks": {
+      "A": {
+        "chunk_id": "wbg-ar-2026:p009:f001",
+        "text": "ders providing financing for the project: In fiscal 2026, the Board approved an IFC loan of up to $375 million. IFC is also acting as an accredited entity for a $220 million concessional senior loan and a $75 million investment grant from the Green Climate Fund. For its part, MIGA received Board approval for guarantees of up to $1.25 billion. Complementing the Aqaba-Amman project is IBRD’s $300 million Jordan Water Sector Efficiency Project, which includes financing from partners. This is strengthening Jordan’s broader water sector through non-revenue water reduction, energy efficiency, and distribution-system readiness. The World Bank Group’s support for Jordan’s water sector aligns with our Water Strategy Implementation Plan, which outlines how investments, long-term policy reforms, and"
+      },
+      "B": {
+        "chunk_id": "wbg-ar-2026:p009:b001",
+        "text": "The World Bank Group is part of a pool of international lenders providing financing for the project: In fiscal 2026, the Board approved an IFC loan of up to $375 million. IFC is also acting as an accredited entity for a $220 million concessional senior loan and a $75 million investment grant from the Green Climate Fund. For its part, MIGA received Board approval for guarantees of up to $1.25 billion.\nComplementing the Aqaba-Amman project is IBRD’s $300 million Jordan Water Sector Efficiency Project, which includes financing from partners. This is strengthening Jordan’s broader water sector through non-revenue water reduction, energy efficiency, and distribution-system readiness."
+      },
+      "C": {
+        "same_as": "B"
+      }
+    }
+  },
+  {
+    "position_id": "pos07",
+    "page": 10,
+    "rule": "first word boundary after the midpoint of the normalized page text; 40-char snippet",
+    "snippet": "to contribute to Ukraine’s energy grid s",
+    "chunks": {
+      "A": {
+        "chunk_id": "wbg-ar-2026:p010:f001",
+        "text": "store electricity and heating for millions of people. In fiscal 2026, more than $150 million of these grants were allocated for heating units, as well as for equipment needed to secure power imports from the EU. Another project is rehabilitating hydropower plants and delivering reliable power to affected communities. In close coordination, IFC’s €50 million financing and support from partners unlocked the private investment to build a new 189 megawatt (MW) wind power plant by the Ukrainian company OKKO, complementing an earlier 147 MW project. The two projects are expected to contribute to Ukraine’s energy grid stability and provide electricity to around 800,000 people. Together with additional renewable energy projects supported by IFC and partners, these private sector investments are ex"
+      },
+      "B": {
+        "chunk_id": "wbg-ar-2026:p010:b002",
+        "text": "In close coordination, IFC’s €50 million financing and support from partners unlocked the private investment to build a new 189 megawatt (MW) wind power plant by the Ukrainian company OKKO, complementing an earlier 147 MW project. The two projects are expected to contribute to Ukraine’s energy grid stability and provide electricity to around 800,000 people. Together with additional renewable energy projects supported by IFC and partners, these private sector investments are expected to add approximately 715 MW of new capacity."
+      },
+      "C": {
+        "same_as": "B"
+      }
+    }
+  },
+  {
+    "position_id": "pos08",
+    "page": 11,
+    "rule": "first word boundary after the midpoint of the normalized page text; 40-char snippet",
+    "snippet": "as well as partnerships created by the W",
+    "chunks": {
+      "A": {
+        "chunk_id": "wbg-ar-2026:p011:f001",
+        "text": "idies, and remove barriers to doing business. Finally, the World Bank Group expands access to finance through MIGA’s guarantees and insurance, as well as partnerships created by the World Bank and IFC. The private sector is a critical partner across all three pillars. With this approach, we’ll create an integrated pathway for family farms to access markets, finance, technology, and resilience tools. We’re working quickly because family farms around the world, including 500 million smallholder farmers, produce most of the world’s food, yet many remain in poverty, relying on traditional farming methods and lacking access to markets, finance, and technology. Supporting them to become commercially successful is critical to creating jobs, reducing poverty, and improving global food security. Ou"
+      },
+      "B": {
+        "chunk_id": "wbg-ar-2026:p011:b001",
+        "text": "Our three-pillar strategy leverages the World Bank Group’s unique capabilities. First, the World Bank and IFC strengthen the foundations of family farms by investing in physical and human capital, such as rural roads and research. Then, they align regulations, streamline standards, repurpose subsidies, and remove barriers to doing business. Finally, the World Bank Group expands access to finance through MIGA’s guarantees and insurance, as well as partnerships created by the World Bank and IFC. The private sector is a critical partner across all three pillars.\nWith this approach, we’ll create an integrated pathway for family farms to access markets, finance, technology, and resilience tools."
+      },
+      "C": {
+        "same_as": "B"
+      }
+    }
+  },
+  {
+    "position_id": "pos09",
+    "page": 12,
+    "rule": "first word boundary after the midpoint of the normalized page text; 40-char snippet",
+    "snippet": "most critical asset: its people. AI-enab",
+    "chunks": {
+      "A": {
+        "chunk_id": "wbg-ar-2026:p012:f001",
+        "text": "oa, Solomon Islands, and Vanuatu. Leveraging the expertise of Knowledge Bank teams at the World Bank and IFC, PHIT will create, protect, and safeguard 16,000 vital health and health-support jobs across the Pacific — spanning frontline service delivery, infrastructure development, digital health systems, supply chains, and monitoring and evaluation — representing a major investment in the region’s most critical asset: its people. AI-enabled diagnostics and regional telehealth networks will enable more patients to receive accurate diagnostics; expanded access to specialized services, including regional radiotherapy and advanced medical imaging, will serve patients with specific needs. Together, these advancements will accelerate regional health and development impact for greater resilience,"
+      },
+      "B": {
+        "chunk_id": "wbg-ar-2026:p012:b001",
+        "text": "Leveraging the expertise of Knowledge Bank teams at the World Bank and IFC, PHIT will create, protect, and safeguard 16,000 vital health and health-support jobs across the Pacific — spanning frontline service delivery, infrastructure development, digital health systems, supply chains, and monitoring and evaluation — representing a major investment in the region’s most critical asset: its people. AI-enabled diagnostics and regional telehealth networks will enable more patients to receive accurate diagnostics; expanded access to specialized services, including regional radiotherapy and advanced medical imaging, will serve patients with specific needs."
+      },
+      "C": {
+        "same_as": "B"
+      }
+    }
+  },
+  {
+    "position_id": "pos10",
+    "page": 13,
+    "rule": "first word boundary after the midpoint of the normalized page text; 40-char snippet",
+    "snippet": "has anchored the private sector transfor",
+    "chunks": {
+      "A": {
+        "chunk_id": "wbg-ar-2026:p013:f001",
+        "text": "the Improving Connectivity and Urban Infrastructure Project — are strengthening the sector’s governance and institutional framework, while upgrading critical infrastructure, including coastal and jetty facilities, maritime passenger terminals, heritage sites, and public spaces. Two other programs — the Human Capital Development Project and the Health Security Program in Western and Central Africa — are complementing these efforts by strengthening essential services. Together they support more than 100 vocational and specialty training courses, translating growth into more and better-paid jobs. IFC has anchored the private sector transformation. In December 2023, IFC arranged a financing package of up to €35.5 million for Oásis Atlântico, one of the country’s leading hospitality operators."
+      },
+      "B": {
+        "chunk_id": "wbg-ar-2026:p013:b003",
+        "text": "IFC has anchored the private sector transformation. In December 2023, IFC arranged a financing package of up to €35.5 million for Oásis Atlântico, one of the country’s leading hospitality operators. The investment supports more than 700 direct jobs and 20,000 indirect jobs, and linkages with over 700 small suppliers and farmers. IFC has also extended two successive sustainability-linked loans to Cabo Verde Airports S.A., a subsidiary of VINCI Airports, with the most recent reaching up to €60 million in February 2026.\nThe financing has modernized and greened the country’s seven airports, created over 2,000 direct jobs and 1,200 indirect jobs, and helped establish 35 new air routes — driving a 60 percent surge in passenger volumes since 2022."
+      },
+      "C": {
+        "same_as": "B"
+      }
+    }
+  }
+]

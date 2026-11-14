@@ -1,0 +1,16 @@
+question_id,strategy,filter_applied,first_hit_rank,top3_pages,score_0_2,reason,labeler,reviewed_by
+t01,A,null,1,"9,9,9",2,"Rank-1 chunk (p9) contains 4,000 direct / ~29,000 indirect jobs and names the Aqaba-Amman project.",AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t02,A,null,1,"27,27,27",2,"Rank-1 chunk (p27) holds the IBRD Table 3 rows plus footnote a (region move, effective date, only FY25 restated).",AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t03,A,null,3,"43,44,43",2,"Rank-3 chunk (p43) has 363 vs 347 vs 341; ranks 1-2 are other ICSID figures (60 registered cases, 256 sessions) that could distract.",AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t04,A,null,1,"39,39,39",2,Rank-1 chunk (p39) contains $28.7 billion / 69% / up from 68%.,AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t05,A,null,1,"24,24,24",2,"Rank-1 chunk (p24) contains 54 investigated / four substantiated, with INT named.",AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t01,B,null,1,"9,9,9",2,Rank-1 chunk (p9) is the full Jordan paragraph with both figures.,AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t02,B,null,1,"30,27,27",2,"Rank-1 is the identical footnote under IDA tables (p30, accepted alt gold); rank-2 is the IBRD Table 3 footnote on p27, so the IBRD context is traceable.",AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t03,B,null,1,"43,43,44",2,Rank-1 chunk (p43) is exactly the Figure 5 paragraph with all three figures.,AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t04,B,null,1,"39,39,39",2,Rank-1 chunk (p39) contains $28.7 billion / 69% / up from 68%.,AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t05,B,null,1,"24,24,24",2,"Rank-1 chunk (p24) contains 54 investigated / four substantiated, with INT named.",AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t01,C,null,1,"9,9,9",2,Same top-3 as B.,AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t02,C,null,1,"30,27,27",2,Same top-3 as B.,AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t03,C,"{""section"": ""ICSID""}",1,"43,43,44",2,Same top-3 as B (filter ICSID applied; ranking unchanged).,AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t04,C,null,1,"39,39,39",2,Same top-3 as B.,AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
+t05,C,null,1,"24,24,24",2,Same top-3 as B.,AI draft (Claude Opus 5.5),Nguyễn Lương Nguyên
