@@ -40,6 +40,24 @@ def normalize_text(text: str) -> str:
     return text.strip()
 
 
+def load_corpus(manifest_path: Path, repo_root: Path) -> list[DocumentPage]:
+    """Load every source in the manifest and keep only counted content pages,
+    attaching `sections` / `printed_pages` from the manifest."""
+    import json
+
+    manifest = json.loads(Path(manifest_path).read_text(encoding="utf-8"))
+    by_page = {r["pdf_page"]: r for r in manifest["pages"]}
+    pages: list[DocumentPage] = []
+    for src in manifest["sources"]:
+        counted = set(src["counted_pdf_pages"])
+        for p in load_pdf(repo_root / src["source_path_or_url"], src["source_id"], src["source_path_or_url"]):
+            if p.page in counted:
+                p.metadata["sections"] = by_page[p.page]["sections"]
+                p.metadata["printed_pages"] = by_page[p.page]["printed_pages"]
+                pages.append(p)
+    return pages
+
+
 def load_pdf(path: Path, document_id: str, source: str) -> list[DocumentPage]:
     """Extract each physical PDF page (1-based) with its source and printed page numbers.
 

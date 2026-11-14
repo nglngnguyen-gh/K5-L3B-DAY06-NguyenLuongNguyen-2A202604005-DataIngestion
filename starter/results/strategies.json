@@ -1,0 +1,39 @@
+{
+  "embedding": {
+    "provider": "Google Gemini API (google-genai)",
+    "model": "gemini-embedding-001",
+    "dimensions": 768,
+    "document_task_type": "RETRIEVAL_DOCUMENT",
+    "query_task_type": "RETRIEVAL_QUERY",
+    "normalization": "L2 after truncation"
+  },
+  "vector_store": {
+    "engine": "PostgreSQL 16 + pgvector 0.8.7",
+    "table": "chunks",
+    "metric": "cosine (<=>)",
+    "search": "exact (sequential scan, no ANN index)"
+  },
+  "strategies": {
+    "A": {
+      "chunking": "fixed_size",
+      "size": 800,
+      "overlap": 100,
+      "use_filter": false,
+      "hypothesis": "Baseline: fixed windows ignore sentence/heading boundaries; more evidence cut mid-sentence."
+    },
+    "B": {
+      "chunking": "by_paragraph",
+      "max_size": 800,
+      "min_size": 200,
+      "use_filter": false,
+      "hypothesis": "Same size budget as A but paragraph/heading boundaries -> more coherent chunks, higher Hit@1."
+    },
+    "C": {
+      "chunking": "by_paragraph",
+      "max_size": 800,
+      "min_size": 200,
+      "use_filter": true,
+      "hypothesis": "B + section filter (only for questions that provide one) removes cross-institution confusions."
+    }
+  }
+}
