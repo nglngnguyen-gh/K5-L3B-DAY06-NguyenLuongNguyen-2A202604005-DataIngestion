@@ -7,7 +7,7 @@
 
 - **Chủ đề, nguồn/quyền, số trang và quy tắc tính trang:**
   - Nguồn là *The World Bank Group Annual Report 2026* (World Bank Group, DOI 10.1596/AR2026, tải từ worldbank.org/en/about/annual-report). File PDF gốc, chưa chỉnh sửa, nằm tại `starter/data/`.
-  - Giấy phép là **CC BY-NC-ND 3.0 IGO**, ghi ở trang PDF 45. Trước khi đọc kỹ, tôi tưởng là CC BY. Bài lab không nhằm mục đích thương mại. File PDF được giữ nguyên. Text đã trích, các chunk và embedding chỉ dùng cho thí nghiệm truy xuất và không được phát hành như một tác phẩm phái sinh (`starter/data/processed/` nằm trong `.gitignore`).
+  - Giấy phép là **CC BY-NC-ND 3.0 IGO**, ghi ở trang PDF 45. Bài lab không nhằm mục đích thương mại. File PDF được giữ nguyên. Text đã trích, các chunk và embedding chỉ dùng cho thí nghiệm truy xuất và không được phát hành như một tác phẩm phái sinh (`starter/data/processed/` nằm trong `.gitignore`).
   - PDF có 46 trang vật lý. Từ trang 3 trở đi, mỗi trang là một trang đôi gồm 2 trang in, tổng cộng 87 trang in. **Đơn vị đếm là trang PDF vật lý**, cách đếm này thận trọng hơn đếm trang in.
   - Một trang được tính nếu trích xuất thành công, có ít nhất 500 ký tự sau chuẩn hóa, và không phải mục lục hay phần pháp lý cuối sách. Kết quả: **41 trang được tính, khoảng 183k ký tự**. Các trang bị loại: p1 (bìa), p2 (mục lục), p8 (trang ngăn chương), p45 (pháp lý, bản quyền, credits), p46 (bìa sau).
   - Chi tiết nằm trong [data/manifest.json](../../data/manifest.json), có kèm SHA-256 của file PDF.
@@ -23,7 +23,7 @@
     - Embed câu hỏi: 20 lần gọi API.
     - Nạp lại: 0 lần gọi API, nhờ bảng `embedding_cache`.
   - **Số token** đếm bằng API `countTokens` của chính model này: A 46.348, B 41.579, câu hỏi 452, **tổng 88.379 token**. Trang hạn mức trong AI Studio cho thấy mức cao nhất 85,08K TPM, khớp với việc phần embed tài liệu chạy xong trong chưa đầy 1 phút.
-  - **Chi phí:** trang hạn mức hiển thị 3K RPM, tương ứng gói trả phí (Tier 1). Tính theo giá niêm yết $0,15/1M token đầu vào ([bảng giá Gemini API](https://ai.google.dev/gemini-api/docs/pricing), tra ngày 2026-11-14), chi phí **ước tính khoảng $0,013** (A ≈ $0,0070, B ≈ $0,0062, C $0, câu hỏi ≈ $0,0001). Đây là số tính lại từ token và đơn giá, không phải số đọc từ hóa đơn; trang hạn mức không hiển thị chi phí.
+  - **Chi phí:** trang hạn mức hiển thị 3K RPM, tương ứng gói trả phí (Tier 1). Tính theo giá niêm yết $0,15/1M token đầu vào ([bảng giá Gemini API](https://ai.google.dev/gemini-api/docs/pricing), tra ngày 2026-11-14), chi phí **ước tính khoảng $0,013** (A ≈ $0,0070, B ≈ $0,0062, C $0, câu hỏi ≈ $0,0001). Đây là số tính lại từ token và đơn giá, không phải số đọc từ hóa đơn.
 - **Metadata bắt buộc, trường lọc bổ sung, nguồn giá trị và lý do chọn:**
   - Mỗi chunk có `document_id`, `source` (đường dẫn file PDF) và `page` (trang PDF bắt đầu từ 1), cộng thêm `printed_pages` (số trang in), `chunk_index`, `heading` (chỉ B và C có) và `content_hash`.
   - **Trường lọc là `sections`** (kiểu `text[]`). Giá trị được lấy nguyên văn từ **mục lục in ở trang PDF 2**, ánh xạ theo số trang in. Có 13 giá trị, trong đó 5 chương theo tổ chức là One World Bank Group, World Bank (IBRD/IDA), IFC, MIGA, ICSID. Một trang đôi nằm ở ranh giới hai chương mang cả hai giá trị (p26, p32).
