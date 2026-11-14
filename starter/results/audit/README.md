@@ -1,6 +1,6 @@
 # Manual audit — method and status
 
-**Status: draft labels produced by an AI assistant (Claude Opus 5.5) and pending review by the student.** The `reviewed_by` column is empty until the student re-checks each row against the PDF and either confirms or changes the score. Any change must be recorded here. The same person/tool labelled all strategies, so there is a risk of bias, especially because the labeller knew which strategy each chunk came from.
+**Status: reviewed.** An AI assistant (Claude Opus 5.5, `labeler` column) drafted the labels. The student (Nguyễn Lương Nguyên, `reviewed_by` column) then re-checked every row against the PDF. Outcome: all 45 scores were confirmed unchanged. The reasons for pos01 and pos02 (3 rows each) were rewritten to describe the pypdf reading-order errors found during review; the earlier pos02 reason ("continues after an interleaved heading") was wrong. The same person/tool labelled all strategies, so there is a risk of bias, especially because the labeller knew which strategy each chunk came from.
 
 | File | What | Sample (fixed before scoring) |
 |---|---|---|

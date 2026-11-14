@@ -2,7 +2,7 @@
 
 Corpus: `wbg-ar-2026` (41 counted PDF pages). Embedding: `gemini-embedding-001`, 768d. Store: PostgreSQL 16 + pgvector 0.8.7, exact cosine search. Benchmark: 15 dev / 5 test (`benchmark/questions.json`, sha256 in `benchmark/verification.json`). The strategy was selected on dev and locked in `results/selection.json` (2026-11-14T03:54:16Z, commit 547b93a) **before** the single test run.
 
-Manual labels are **AI drafts pending student review** (see `audit/README.md`).
+Manual labels were drafted by AI and reviewed by the student; all scores were confirmed (see `audit/README.md`).
 
 ## 1. Retrieval accuracy (strict: chunk on a gold page containing the full evidence quote)
 
@@ -63,7 +63,9 @@ This is a ceiling effect: the test questions turned out easy for every strategy,
 | DB upsert | 0.66 s | 0.66 s | 0.78 s |
 | Median search latency (dev) | 4.6 ms | 4.5 ms | 4.5 ms |
 
-Query embeddings: 20 calls in total (15 dev + 5 test), cached in `embedding_cache`. A re-ingest made 0 API calls and changed 0 rows (`ingest_runs.jsonl`, run 2). Billing depends on the student's Gemini tier and is to be filled in from Google AI Studio.
+Query embeddings: 20 calls in total (15 dev + 5 test), cached in `embedding_cache`. A re-ingest made 0 API calls and changed 0 rows (`ingest_runs.jsonl`, run 2).
+
+Exact tokens (Gemini `countTokens`): A 46,348; B 41,579; queries 452; total 88,379. This is consistent with the AI Studio peak of 85.08K TPM. The account shows a 3K RPM limit (paid tier), so at the listed $0.15 per 1M input tokens the estimated cost is about **$0.013** (A ≈ $0.0070, B ≈ $0.0062, C $0, queries ≈ $0.0001). This is computed from tokens and the list price, not read from an invoice.
 
 - **A → B (chunk boundaries only, same 800-char budget):** coherence improves clearly (1.0 → 1.8). B embeds 12% fewer characters (no overlap) but produces 20% more, shorter chunks. Retrieval accuracy is unchanged within noise (Hit@3 equal; Hit@1 −1 on dev, +1 on test). Trade-off: B's shorter chunks rank precisely (t03), but a paragraph with the wrong scope can outrank the gold one (d01, p5).
 - **B → C (filter only):** no change in Hit@1/Hit@3 on this benchmark. Filter compliance on dev rises from 1/3 to 3/3 at no extra cost. C's value is in removing cross-institution distractors from ranks 2–3, which matters most when a downstream LLM reads all three chunks. Its correctness depends on page-level section labels (see p32).
