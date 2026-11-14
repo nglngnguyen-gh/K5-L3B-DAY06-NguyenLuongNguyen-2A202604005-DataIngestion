@@ -1,0 +1,435 @@
+{
+  "verified_at": "2026-11-14T03:14:19+00:00",
+  "questions_sha256": "a7c5ea1880e18c177f37c08ff9afa08a107692a1fec8900297b5bd0fa8d82415",
+  "counts": {
+    "total": 20,
+    "split": {
+      "dev": 15,
+      "test": 5
+    },
+    "with_filter": {
+      "dev": 3,
+      "test": 1
+    },
+    "types": {
+      "direct": 8,
+      "conditional": 3,
+      "paraphrase": 5,
+      "metadata_filter": 4
+    }
+  },
+  "dev_test_shared_gold_pages": [
+    39
+  ],
+  "errors": [],
+  "questions": [
+    {
+      "id": "d01",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 6,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "Reforms and Results"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d02",
+      "split": "dev",
+      "type": "conditional",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 6,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "Reforms and Results"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d03",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 7,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "Jobs Strategy"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d04",
+      "split": "dev",
+      "type": "paraphrase",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 7,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "Jobs Strategy"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d05",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 10,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "Jobs Strategy"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d06",
+      "split": "dev",
+      "type": "paraphrase",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 11,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "Jobs Strategy"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d07",
+      "split": "dev",
+      "type": "conditional",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 12,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "Jobs Strategy"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d08",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 13,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "Jobs Strategy"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d09",
+      "split": "dev",
+      "type": "paraphrase",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 14,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "Jobs Strategy"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d10",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 19,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "One World Bank Group"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d11",
+      "split": "dev",
+      "type": "metadata_filter",
+      "filter": {
+        "section": "World Bank (IBRD/IDA)"
+      },
+      "checks": [
+        {
+          "gold_page": 31,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "World Bank (IBRD/IDA)"
+          ],
+          "filter_value_on_page": true,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d12",
+      "split": "dev",
+      "type": "metadata_filter",
+      "filter": {
+        "section": "IFC"
+      },
+      "checks": [
+        {
+          "gold_page": 32,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "World Bank (IBRD/IDA)",
+            "IFC"
+          ],
+          "filter_value_on_page": true,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d13",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 36,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "IFC"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d14",
+      "split": "dev",
+      "type": "metadata_filter",
+      "filter": {
+        "section": "MIGA"
+      },
+      "checks": [
+        {
+          "gold_page": 38,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "MIGA"
+          ],
+          "filter_value_on_page": true,
+          "evidence_also_on_pages": []
+        },
+        {
+          "gold_page": 39,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "MIGA"
+          ],
+          "filter_value_on_page": true,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "d15",
+      "split": "dev",
+      "type": "direct",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 42,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "ICSID"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "t01",
+      "split": "test",
+      "type": "paraphrase",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 9,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "Jobs Strategy"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "t02",
+      "split": "test",
+      "type": "conditional",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 27,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "World Bank (IBRD/IDA)"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": [
+            29,
+            30
+          ]
+        },
+        {
+          "gold_page": 29,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "World Bank (IBRD/IDA)"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": [
+            27,
+            30
+          ]
+        },
+        {
+          "gold_page": 30,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "World Bank (IBRD/IDA)"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": [
+            27,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t03",
+      "split": "test",
+      "type": "metadata_filter",
+      "filter": {
+        "section": "ICSID"
+      },
+      "checks": [
+        {
+          "gold_page": 43,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "ICSID"
+          ],
+          "filter_value_on_page": true,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "t04",
+      "split": "test",
+      "type": "direct",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 39,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "MIGA"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    },
+    {
+      "id": "t05",
+      "split": "test",
+      "type": "paraphrase",
+      "filter": null,
+      "checks": [
+        {
+          "gold_page": 24,
+          "evidence_found": true,
+          "page_counted": true,
+          "page_sections": [
+            "One World Bank Group"
+          ],
+          "filter_value_on_page": null,
+          "evidence_also_on_pages": []
+        }
+      ]
+    }
+  ]
+}

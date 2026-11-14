@@ -1,0 +1,32 @@
+[
+  {
+    "page": 1,
+    "issue": "excluded",
+    "reason": "cover/divider page (< 500 chars)",
+    "chars": 62
+  },
+  {
+    "page": 2,
+    "issue": "excluded",
+    "reason": "table of contents + report preface",
+    "chars": 1080
+  },
+  {
+    "page": 8,
+    "issue": "excluded",
+    "reason": "cover/divider page (< 500 chars)",
+    "chars": 342
+  },
+  {
+    "page": 45,
+    "issue": "excluded",
+    "reason": "back matter: financial statements by reference, legal disclaimer, rights, credits",
+    "chars": 6141
+  },
+  {
+    "page": 46,
+    "issue": "excluded",
+    "reason": "cover/divider page (< 500 chars)",
+    "chars": 444
+  }
+]

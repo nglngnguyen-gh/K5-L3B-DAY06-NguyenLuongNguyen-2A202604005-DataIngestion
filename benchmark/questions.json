@@ -1,0 +1,182 @@
+{
+  "benchmark_id": "wbg-ar-2026-v1",
+  "created_at": "2026-11-14",
+  "corpus": "wbg-ar-2026 (see data/manifest.json)",
+  "page_unit": "physical PDF page (1-based)",
+  "filter_field": "section (values from the printed table of contents; a chunk matches if the value is in its sections list)",
+  "selection_rule_declared_before_test": "Choose the strategy with the highest dev Evidence Hit@3; ties -> dev Hit@1; then mean grounding score on dev spot-checks; then fewer chunks / lower ingest time.",
+  "questions": [
+    {
+      "id": "d01", "split": "dev", "type": "direct",
+      "question": "By how much did the World Bank Group cut its average project-approval time?",
+      "expected_answer": "From 19 months to nine months; some low-risk projects were approved in as little as 60 days.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 6,
+      "evidence_quote": "We cut average project-approval times from 19 months to nine, with some low-risk projects approved in as little as 60 days.",
+      "filter": null
+    },
+    {
+      "id": "d02", "split": "dev", "type": "conditional",
+      "question": "How much did the World Bank Group issue in guarantees in fiscal 2026, and how does that compare with its 2030 goal?",
+      "expected_answer": "$25 billion, surpassing the goal of issuing $20 billion annually by 2030.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 6,
+      "evidence_quote": "We also issued $25 billion in guarantees this year — surpassing our goal of issuing $20 billion annually by 2030",
+      "filter": null
+    },
+    {
+      "id": "d03", "split": "dev", "type": "direct",
+      "question": "What are the five priority sectors of the World Bank Group jobs strategy?",
+      "expected_answer": "Infrastructure and energy; agribusiness; healthcare; tourism; value-added manufacturing.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 7,
+      "evidence_quote": "5 Priority jobs sectors Infrastructure and energy • Agribusiness • Healthcare • Tourism • Value-added manufacturing",
+      "filter": null
+    },
+    {
+      "id": "d04", "split": "dev", "type": "paraphrase",
+      "question": "How large is the gap between the number of young people entering working age and the jobs developing countries are expected to create?",
+      "expected_answer": "About 1.2 billion young people reach working age in the next 10-15 years, while developing countries are expected to generate only about 420 million jobs in that period.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 7,
+      "evidence_quote": "With 1.2 billion young people reaching working age in the next 10 to 15 years, the need for more and better-paid jobs is more urgent than ever. On current trajectories, developing countries are expected to generate only about 420 million jobs over that same period",
+      "filter": null
+    },
+    {
+      "id": "d05", "split": "dev", "type": "direct",
+      "question": "What reconstruction needs have attacks on Ukraine's energy infrastructure created?",
+      "expected_answer": "An estimated $91 billion.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 10,
+      "evidence_quote": "Attacks to Ukraine’s energy infrastructure have created an estimated $91 billion in reconstruction needs.",
+      "filter": null
+    },
+    {
+      "id": "d06", "split": "dev", "type": "paraphrase",
+      "question": "What does the partnership with the Brazilian government aim to achieve for small family farms by the end of the decade?",
+      "expected_answer": "Support 1 million family farms with improved technology, market logistics, and insurance by 2030.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 11,
+      "evidence_quote": "aims to support 1 million family farms with improved technology, market logistics, and insurance by 2030",
+      "filter": null
+    },
+    {
+      "id": "d07", "split": "dev", "type": "conditional",
+      "question": "How much does the Pacific Healthy Islands Transformation project cost, and which countries are covered only through the Pacific Community?",
+      "expected_answer": "$239.5 million; Naoero, Samoa, Solomon Islands, and Vanuatu are covered through the Pacific Community (Fiji, Kiribati, Tonga, and Tuvalu directly).",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 12,
+      "evidence_quote": "The $239.5 million project covers Fiji, Kiribati, Tonga, and Tuvalu, and — through the Pacific Community — Naoero, Samoa, Solomon Islands, and Vanuatu.",
+      "filter": null
+    },
+    {
+      "id": "d08", "split": "dev", "type": "direct",
+      "question": "How large was IFC's most recent sustainability-linked loan to Cabo Verde Airports and when was it made?",
+      "expected_answer": "Up to €60 million, in February 2026.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 13,
+      "evidence_quote": "with the most recent reaching up to €60 million in February 2026",
+      "filter": null
+    },
+    {
+      "id": "d09", "split": "dev", "type": "paraphrase",
+      "question": "Which company received IFC's first direct green hydrogen investment in India, and how much was invested?",
+      "expected_answer": "Hygenco Green Energies; $25 million in fiscal 2026.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 14,
+      "evidence_quote": "In fiscal 2026, IFC invested $25 million in Hygenco Green Energies — its first direct green hydrogen investment in India.",
+      "filter": null
+    },
+    {
+      "id": "d10", "split": "dev", "type": "direct",
+      "question": "What were IBRD/IDA net commitments, IFC exposure, and MIGA exposure to small states in fiscal 2026?",
+      "expected_answer": "IBRD/IDA $8.9 billion; IFC $682 million; MIGA $790 million.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 19,
+      "evidence_quote": "In fiscal 2026, IBRD/IDA portfolio net commitments to small states reached $8.9 billion, IFC portfolio exposure reached $682 million, and MIGA exposure reached $790 million.",
+      "filter": null
+    },
+    {
+      "id": "d11", "split": "dev", "type": "metadata_filter",
+      "question": "How much was issued in bonds in fiscal 2026, and across how many currencies?",
+      "expected_answer": "IDA issued $13.9 billion equivalent across six currencies.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 31,
+      "evidence_quote": "In fiscal 2026, IDA issued $13.9 billion equivalent across six currencies.",
+      "filter": {"section": "World Bank (IBRD/IDA)"},
+      "filter_context": "User is reading the World Bank (IBRD/IDA) chapter. Without the filter, IBRD (~$50 billion) and IFC bond figures on p19 compete."
+    },
+    {
+      "id": "d12", "split": "dev", "type": "metadata_filter",
+      "question": "What record level of investment commitments was reached in fiscal 2026, and how much of it was private capital mobilized?",
+      "expected_answer": "A record $105.6 billion in investment commitments, including over $73.6 billion in private capital mobilized (IFC).",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 32,
+      "evidence_quote": "In fiscal 2026, IFC achieved a record $105.6 billion in investment commitments, including over $73.6 billion in private capital mobilized.",
+      "filter": {"section": "IFC"},
+      "filter_context": "User is reading the IFC chapter. Without the filter, Group-wide figures ($112 billion private capital) compete."
+    },
+    {
+      "id": "d13", "split": "dev", "type": "direct",
+      "question": "How much did the Managed Co-Lending Portfolio Program mobilize in fiscal 2026, and from whom?",
+      "expected_answer": "$6 billion from 19 global insurers, to support lending to financial institutions in emerging markets.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 36,
+      "evidence_quote": "In fiscal 2026, the MCPP mobilized $6 billion from 19 global insurers to support lending to financial institutions in emerging markets.",
+      "filter": null
+    },
+    {
+      "id": "d14", "split": "dev", "type": "metadata_filter",
+      "question": "How much was issued in new guarantees in fiscal 2026, and for how many projects?",
+      "expected_answer": "A record $10.6 billion across 60 projects (MIGA).",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 38,
+      "evidence_quote": "Of this, MIGA issued a record $10.6 billion in new guarantees across 60 projects.",
+      "alternative_gold": [
+        {"gold_page": 39, "evidence_quote": "MIGA’s new guarantee business volume during fiscal 2026 reached a record high of $10.6 billion in support of 60 projects"}
+      ],
+      "filter": {"section": "MIGA"},
+      "filter_context": "User is reading the MIGA chapter. Without the filter, Group-wide $25 billion (p6) and Guarantee Platform $17.9 billion compete."
+    },
+    {
+      "id": "d15", "split": "dev", "type": "direct",
+      "question": "Which country became the 166th Signatory State of the ICSID Convention, and when did it sign?",
+      "expected_answer": "Honduras, on March 6, 2026.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 42,
+      "evidence_quote": "On March 6, 2026, President Nasry Juan Asfura of Honduras signed the ICSID Convention in Washington, D.C., making Honduras the 166th Signatory State to the Convention.",
+      "filter": null
+    },
+    {
+      "id": "t01", "split": "test", "type": "paraphrase",
+      "question": "How many direct and indirect jobs is building Jordan's Aqaba-Amman water desalination project creating?",
+      "expected_answer": "4,000 direct jobs and approximately 29,000 indirect jobs.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 9,
+      "evidence_quote": "The project’s construction is directly creating 4,000 jobs and, indirectly, approximately 29,000 jobs",
+      "filter": null
+    },
+    {
+      "id": "t02", "split": "test", "type": "conditional",
+      "question": "In the IBRD regional commitment tables, where are Afghanistan and Pakistan counted, since when, and which past figures were restated?",
+      "expected_answer": "In the Middle East, North Africa, Afghanistan, and Pakistan Region (moved from South Asia) effective July 1, 2025; only fiscal 2025 numbers were reclassified.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 27,
+      "evidence_quote": "Effective July 1, 2025, Afghanistan and Pakistan have moved from the South Asia Region to the Middle East, North Africa, Afghanistan, and Pakistan Region. Only fiscal 2025 numbers have been reclassified for comparability.",
+      "alternative_gold": [
+        {"gold_page": 29, "evidence_quote": "Effective July 1, 2025, Afghanistan and Pakistan have moved from the South Asia Region to the Middle East, North Africa, Afghanistan, and Pakistan Region. Only fiscal 2025 numbers have been reclassified for comparability."},
+        {"gold_page": 30, "evidence_quote": "Effective July 1, 2025, Afghanistan and Pakistan have moved from the South Asia Region to the Middle East, North Africa, Afghanistan, and Pakistan Region. Only fiscal 2025 numbers have been reclassified for comparability."}
+      ],
+      "alternative_gold_note": "Same footnote is repeated under the IDA regional tables (p29-30); it states the same reclassification, so those pages are accepted.",
+      "filter": null
+    },
+    {
+      "id": "t03", "split": "test", "type": "metadata_filter",
+      "question": "How many cases were administered in fiscal 2026, and how does that compare with the previous two years?",
+      "expected_answer": "363 cases (a record), up from 347 in fiscal 2025 and 341 in fiscal 2024 (ICSID).",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 43,
+      "evidence_quote": "The Centre administered 363 cases — the highest in its history — up from 347 in fiscal 2025 and 341 in fiscal 2024.",
+      "filter": {"section": "ICSID"},
+      "filter_context": "User is reading the ICSID chapter. Without the filter, CAO's 63 cases (p23) and INT's 54 cases (p24) compete."
+    },
+    {
+      "id": "t04", "split": "test", "type": "direct",
+      "question": "What share of MIGA's outstanding gross guarantee portfolio was reinsured as of June 30, 2026?",
+      "expected_answer": "$28.7 billion, or 69 percent, up from 68 percent the previous fiscal year.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 39,
+      "evidence_quote": "As of June 30, 2026, $28.7 billion or 69 percent of the outstanding gross portfolio was reinsured, up from 68 percent last fiscal year.",
+      "filter": null
+    },
+    {
+      "id": "t05", "split": "test", "type": "paraphrase",
+      "question": "How many fraud and corruption cases involving staff and corporate vendors were investigated by the Integrity Vice Presidency, and how many were substantiated?",
+      "expected_answer": "54 cases investigated; four substantiated.",
+      "gold_source_id": "wbg-ar-2026", "gold_page": 24,
+      "evidence_quote": "INT investigated 54 cases of alleged fraud and corruption involving World Bank staff and corporate vendors and substantiated four cases.",
+      "filter": null
+    }
+  ]
+}

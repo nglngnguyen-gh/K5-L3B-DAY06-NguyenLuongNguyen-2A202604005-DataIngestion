@@ -1,0 +1,674 @@
+{
+  "generated_at": "2026-11-14T03:05:49+00:00",
+  "sources": [
+    {
+      "source_id": "wbg-ar-2026",
+      "title": "The World Bank Group Annual Report 2026: Investing in People, Investing in Prosperity",
+      "author": "World Bank Group",
+      "year": 2026,
+      "reporting_period": "July 1, 2025 – June 30, 2026 (fiscal 2026)",
+      "source_path_or_url": "starter/data/The World Bank Group Annual Report 2026.pdf",
+      "original_url": "https://www.worldbank.org/en/about/annual-report",
+      "doi": "10.1596/AR2026",
+      "license_or_permission": "CC BY-NC-ND 3.0 IGO (stated on PDF page 45, 'Rights and Permissions')",
+      "attribution": "World Bank Group. 2026. The World Bank Group Annual Report 2026. Washington, DC: World Bank. License: Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND 3.0 IGO).",
+      "usage_note": "Non-commercial course lab. PDF kept unmodified; text extraction/chunks/embeddings are used only for retrieval experiments and are not redistributed as an adapted work. Third-party content (photos, figures) is not claimed.",
+      "accessed_at": "2026-11-14",
+      "accessed_at_note": "date the PDF was added to the lab repo (file creation time); download date not separately recorded",
+      "snapshot": {
+        "pdf_creation_date": "2026-10-14",
+        "producer": "Adobe InDesign 21.6",
+        "sha256": "1c1c0d45b7c616493794130bf354fc6e773e8b01347ebfd853cd40a905cf76d2",
+        "bytes": 6368858
+      },
+      "physical_pdf_pages": 46,
+      "printed_pages_total": 89,
+      "counted_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "counted_page_count": 41,
+      "counted_chars": 183226
+    }
+  ],
+  "page_counting_rule": "Unit = one physical PDF page (most PDF pages are 2-page spreads, so this is conservative). Counted if text extraction succeeded, the page has >= 500 normalized characters, and it is not table of contents or legal/credits back matter. Excluded: cover, contents, section divider, back matter, back cover.",
+  "section_rule": "section = title(s) from the printed table of contents (PDF p2) covering the page's printed page numbers; a spread on a boundary gets both titles.",
+  "extraction": {
+    "library": "pypdf",
+    "normalization": "NFKC, soft-hyphen removal, footer removal, line-break hyphen rejoin, whitespace collapse",
+    "ocr": "not needed (all pages have a text layer)"
+  },
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed_pages": [],
+      "sections": [],
+      "chars": 62,
+      "counted": false,
+      "exclusion_reason": "cover/divider page (< 500 chars)"
+    },
+    {
+      "pdf_page": 2,
+      "printed_pages": [
+        1
+      ],
+      "sections": [],
+      "chars": 1080,
+      "counted": false,
+      "exclusion_reason": "table of contents + report preface"
+    },
+    {
+      "pdf_page": 3,
+      "printed_pages": [
+        2,
+        3
+      ],
+      "sections": [
+        "About Us"
+      ],
+      "chars": 1650,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 4,
+      "printed_pages": [
+        4,
+        5
+      ],
+      "sections": [
+        "Letter from the Executive Directors"
+      ],
+      "chars": 7243,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 5,
+      "printed_pages": [
+        6,
+        7
+      ],
+      "sections": [
+        "Letter from the President"
+      ],
+      "chars": 5161,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 6,
+      "printed_pages": [
+        8,
+        9
+      ],
+      "sections": [
+        "Reforms and Results"
+      ],
+      "chars": 2387,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 7,
+      "printed_pages": [
+        10,
+        11
+      ],
+      "sections": [
+        "Jobs Strategy"
+      ],
+      "chars": 2356,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 8,
+      "printed_pages": [
+        12,
+        13
+      ],
+      "sections": [
+        "Jobs Strategy"
+      ],
+      "chars": 342,
+      "counted": false,
+      "exclusion_reason": "cover/divider page (< 500 chars)"
+    },
+    {
+      "pdf_page": 9,
+      "printed_pages": [
+        14,
+        15
+      ],
+      "sections": [
+        "Jobs Strategy"
+      ],
+      "chars": 1695,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 10,
+      "printed_pages": [
+        16,
+        17
+      ],
+      "sections": [
+        "Jobs Strategy"
+      ],
+      "chars": 2558,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 11,
+      "printed_pages": [
+        18,
+        19
+      ],
+      "sections": [
+        "Jobs Strategy"
+      ],
+      "chars": 1682,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 12,
+      "printed_pages": [
+        20,
+        21
+      ],
+      "sections": [
+        "Jobs Strategy"
+      ],
+      "chars": 2194,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 13,
+      "printed_pages": [
+        22,
+        23
+      ],
+      "sections": [
+        "Jobs Strategy"
+      ],
+      "chars": 2605,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 14,
+      "printed_pages": [
+        24,
+        25
+      ],
+      "sections": [
+        "Jobs Strategy"
+      ],
+      "chars": 1428,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 15,
+      "printed_pages": [
+        26,
+        27
+      ],
+      "sections": [
+        "World Bank Group Scorecard"
+      ],
+      "chars": 2128,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 16,
+      "printed_pages": [
+        28,
+        29
+      ],
+      "sections": [
+        "Target Map"
+      ],
+      "chars": 1735,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 17,
+      "printed_pages": [
+        30,
+        31
+      ],
+      "sections": [
+        "Financial Summary"
+      ],
+      "chars": 3431,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 18,
+      "printed_pages": [
+        32,
+        33
+      ],
+      "sections": [
+        "One World Bank Group"
+      ],
+      "chars": 3611,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 19,
+      "printed_pages": [
+        34,
+        35
+      ],
+      "sections": [
+        "One World Bank Group"
+      ],
+      "chars": 7890,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 20,
+      "printed_pages": [
+        36,
+        37
+      ],
+      "sections": [
+        "One World Bank Group"
+      ],
+      "chars": 9547,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 21,
+      "printed_pages": [
+        38,
+        39
+      ],
+      "sections": [
+        "One World Bank Group"
+      ],
+      "chars": 8016,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 22,
+      "printed_pages": [
+        40,
+        41
+      ],
+      "sections": [
+        "One World Bank Group"
+      ],
+      "chars": 8093,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 23,
+      "printed_pages": [
+        42,
+        43
+      ],
+      "sections": [
+        "One World Bank Group"
+      ],
+      "chars": 6906,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 24,
+      "printed_pages": [
+        44,
+        45
+      ],
+      "sections": [
+        "One World Bank Group"
+      ],
+      "chars": 8051,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 25,
+      "printed_pages": [
+        46,
+        47
+      ],
+      "sections": [
+        "One World Bank Group"
+      ],
+      "chars": 8728,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 26,
+      "printed_pages": [
+        48,
+        49
+      ],
+      "sections": [
+        "One World Bank Group",
+        "World Bank (IBRD/IDA)"
+      ],
+      "chars": 1400,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 27,
+      "printed_pages": [
+        50,
+        51
+      ],
+      "sections": [
+        "World Bank (IBRD/IDA)"
+      ],
+      "chars": 3542,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 28,
+      "printed_pages": [
+        52,
+        53
+      ],
+      "sections": [
+        "World Bank (IBRD/IDA)"
+      ],
+      "chars": 4175,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 29,
+      "printed_pages": [
+        54,
+        55
+      ],
+      "sections": [
+        "World Bank (IBRD/IDA)"
+      ],
+      "chars": 4945,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 30,
+      "printed_pages": [
+        56,
+        57
+      ],
+      "sections": [
+        "World Bank (IBRD/IDA)"
+      ],
+      "chars": 3845,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 31,
+      "printed_pages": [
+        58,
+        59
+      ],
+      "sections": [
+        "World Bank (IBRD/IDA)"
+      ],
+      "chars": 6904,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 32,
+      "printed_pages": [
+        60,
+        61
+      ],
+      "sections": [
+        "World Bank (IBRD/IDA)",
+        "IFC"
+      ],
+      "chars": 3266,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 33,
+      "printed_pages": [
+        62,
+        63
+      ],
+      "sections": [
+        "IFC"
+      ],
+      "chars": 3603,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 34,
+      "printed_pages": [
+        64,
+        65
+      ],
+      "sections": [
+        "IFC"
+      ],
+      "chars": 1614,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 35,
+      "printed_pages": [
+        66,
+        67
+      ],
+      "sections": [
+        "IFC"
+      ],
+      "chars": 2110,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 36,
+      "printed_pages": [
+        68,
+        69
+      ],
+      "sections": [
+        "IFC"
+      ],
+      "chars": 6502,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 37,
+      "printed_pages": [
+        70,
+        71
+      ],
+      "sections": [
+        "IFC"
+      ],
+      "chars": 8406,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 38,
+      "printed_pages": [
+        72,
+        73
+      ],
+      "sections": [
+        "MIGA"
+      ],
+      "chars": 2544,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 39,
+      "printed_pages": [
+        74,
+        75
+      ],
+      "sections": [
+        "MIGA"
+      ],
+      "chars": 2196,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 40,
+      "printed_pages": [
+        76,
+        77
+      ],
+      "sections": [
+        "MIGA"
+      ],
+      "chars": 4829,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 41,
+      "printed_pages": [
+        78,
+        79
+      ],
+      "sections": [
+        "MIGA"
+      ],
+      "chars": 7686,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 42,
+      "printed_pages": [
+        80,
+        81
+      ],
+      "sections": [
+        "ICSID"
+      ],
+      "chars": 6498,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 43,
+      "printed_pages": [
+        82,
+        83
+      ],
+      "sections": [
+        "ICSID"
+      ],
+      "chars": 6834,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 44,
+      "printed_pages": [
+        84,
+        85
+      ],
+      "sections": [
+        "ICSID"
+      ],
+      "chars": 3232,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "pdf_page": 45,
+      "printed_pages": [
+        86,
+        87
+      ],
+      "sections": [
+        "ICSID"
+      ],
+      "chars": 6141,
+      "counted": false,
+      "exclusion_reason": "back matter: financial statements by reference, legal disclaimer, rights, credits"
+    },
+    {
+      "pdf_page": 46,
+      "printed_pages": [
+        88,
+        89
+      ],
+      "sections": [
+        "ICSID"
+      ],
+      "chars": 444,
+      "counted": false,
+      "exclusion_reason": "cover/divider page (< 500 chars)"
+    }
+  ]
+}
